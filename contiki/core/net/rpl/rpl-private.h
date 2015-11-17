@@ -144,14 +144,16 @@
 #ifdef RPL_CONF_DIO_INTERVAL_MIN
 #define RPL_DIO_INTERVAL_MIN        RPL_CONF_DIO_INTERVAL_MIN
 #else
-#define RPL_DIO_INTERVAL_MIN        12
+//#define RPL_DIO_INTERVAL_MIN        12
+#define RPL_DIO_INTERVAL_MIN 12
 #endif
 
 /* Maximum amount of timer doublings. */
 #ifdef RPL_CONF_DIO_INTERVAL_DOUBLINGS
 #define RPL_DIO_INTERVAL_DOUBLINGS  RPL_CONF_DIO_INTERVAL_DOUBLINGS
 #else
-#define RPL_DIO_INTERVAL_DOUBLINGS  8
+//#define RPL_DIO_INTERVAL_DOUBLINGS  8
+#define RPL_DIO_INTERVAL_DOUBLINGS 1 
 #endif
 
 /* Default DIO redundancy. */
